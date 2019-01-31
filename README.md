@@ -7,9 +7,9 @@ Neil Routley's personal Homepage includes the following:
 - Interests
 - Portfolio
 
-<!-- 
+
 ## Preview
-![image](images/preview.gif) -->
+![image](images/siteScreenShot.jpg)
 
 
 ## Tech
@@ -33,8 +33,8 @@ $ open index.html (alt: run reload/http-server)
 
 ## Links
 - [Website](https://neilroutley.github.io/homePage/)
-- [Slides](https://docs.google.com/presentation/d/18qnaEKQv-kSD2iBQMQuZlf1H8NPNmZOgmV8cgIPBTrs/edit?usp=sharing)
 - [Demo Video](https://www.youtube.com/watch?v=eTffFcDAizA&feature=youtu.be)
+- [Slides](https://docs.google.com/presentation/d/18qnaEKQv-kSD2iBQMQuZlf1H8NPNmZOgmV8cgIPBTrs/edit?usp=sharing)
 
 
 ## License
