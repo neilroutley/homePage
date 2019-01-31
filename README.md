@@ -18,9 +18,9 @@ This webpage includes the following technologies:
 
 * HTML5
 * CSS3
-* [Font Awesome](https://origin.fontawesome.com/)
-* [Bootstrap](https://getbootstrap.com/)
-* [jQuery](https://jquery.com/)
+* Font Awesome
+* Bootstrap
+* jQuery
 
 
 ## Installation
@@ -31,8 +31,10 @@ $ open index.html (alt: run reload/http-server)
 ```
 
 
-## Contributors
-- [Neil Routley](https://neilroutley.github.io/homePage/)
+## Links
+- [Website](https://neilroutley.github.io/homePage/)
+- [Slides](https://docs.google.com/presentation/d/18qnaEKQv-kSD2iBQMQuZlf1H8NPNmZOgmV8cgIPBTrs/edit?usp=sharing)
+- [Demo Video](https://www.youtube.com/watch?v=eTffFcDAizA&feature=youtu.be)
 
 
 ## License
