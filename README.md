@@ -1,5 +1,4 @@
 # Homepage
-[Visit Website](https://neilroutley.github.io/homePage/)
 Neil Routley's personal Homepage includes the following:
 - About
 - Experience
@@ -20,6 +19,7 @@ This webpage includes the following technologies:
 * CSS3
 * Font Awesome
 * Bootstrap
+* JavaScript
 * jQuery
 
 
