@@ -266,8 +266,8 @@
       <section class="resume-section p-3 p-lg-5 d-flex flex-column m-lg-auto" id="signup">
       	<div class="my-auto">
 	      	<h2>Email Sign-up!</h2>
-			<input id="emailValidation" type="text" required>
-			<button onclick="formCheck()">OK</button>
+			<input id="emailValidation" type="text" required><br>
+			<button class="btn btn-outline-primary btn-sm" onclick="formCheck()">OK</button>
 			<p>Please enter a valid email address or it will fail the check!</p>
 			<p id="output"></p>
 		</div>
@@ -297,17 +297,14 @@
 
 		    if (email == ""){ 
 		        document.getElementById("output").innerHTML = inpObj.validationMessage;
-		        email.focus();
 		    } 
 		   
 		    if (email.indexOf("@", 0) < 0){  
 		      	document.getElementById("output").innerHTML = "Email is bad!";
-		        email.focus(); 
 		    } 
 		   
 		    if (email.indexOf(".", 0) < 0){ 
   		        document.getElementById("output").innerHTML = "Email is bad!";
-		        email.focus(); 
 		    } 
 		    document.getElementById("output").innerHTML = "Email is good!";
 		}
