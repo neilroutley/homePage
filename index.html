@@ -3,7 +3,6 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
 
 	<!-- Custom fonts for this template -->
     <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
@@ -15,6 +14,8 @@
 
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 
 	<title>Neil's Portfolio</title>
 </head>
@@ -44,6 +45,9 @@
           	</li>
           	<li class="nav-item">
 	            <a class="nav-link js-scroll-trigger" href="#interests">Interests</a>
+          	</li>
+          	<li class="nav-item">
+	            <a class="nav-link js-scroll-trigger" href="#signup">Sign-up</a>
           	</li>
             <li class="nav-item">
               <a class="nav-link" href="portfolio.html">Portfolio</a>
@@ -79,10 +83,8 @@
               <i class="fab fa-facebook-f"></i>
             </a>
           </div>
-          <a href="pdfs/Neil_Routley_Resume_01-30-2019.pdf" class="" download>
-          	<button class="btn btn-outline-primary btn-lg">
+          <a href="pdfs/Neil_Routley_Resume_01-30-2019.pdf" class="btn btn-outline-primary btn-lg" download>
           		<i class="fa fa-download"></i> Resume
-          	</button>
           </a>
         </div>
       </section>
@@ -261,6 +263,16 @@
         </div>
       </section>
 
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column m-lg-auto" id="signup">
+      	<div class="my-auto">
+	      	<p>Email Sign-up!</p>
+			<input id="emailValidation" type="text" required>
+			<button onclick="formCheck()">OK</button>
+			<p>Please enter a valid email address or it will fail the check!</p>
+			<p id="output"></p>
+		</div>
+      </section>
+
 
 	  <!-- Footer -->
 	  <footer class="py-5 bg-dark">
@@ -271,15 +283,6 @@
 	  </footer>
     </div>
 
-	<!-- jQuery library -->
-	<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
-
-	<!-- Popper JS -->
-	<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script> -->
-
-	<!-- Latest compiled JavaScript -->
-	<!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script> -->
-
 	<!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -289,5 +292,26 @@
 
     <!-- Custom scripts for this template -->
     <script src="js/resume.min.js"></script>
+    <script type="text/javascript">
+		function formCheck(){  
+			var email = document.getElementById("emailValidation").value;
+
+		    if (email == ""){ 
+		        document.getElementById("output").innerHTML = inpObj.validationMessage;
+		        email.focus();
+		    } 
+		   
+		    if (email.indexOf("@", 0) < 0){  
+		      	document.getElementById("output").innerHTML = "Email is bad!";
+		        email.focus(); 
+		    } 
+		   
+		    if (email.indexOf(".", 0) < 0){ 
+  		        document.getElementById("output").innerHTML = "Email is bad!";
+		        email.focus(); 
+		    } 
+		    document.getElementById("output").innerHTML = "Email is good!";
+		}
+</script>
 </body>
 </html>
