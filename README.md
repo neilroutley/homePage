@@ -34,7 +34,7 @@ $ open index.html (alt: run reload/http-server)
 
 
 ## Links
-- [Website](https://neilroutley.github.io/homePage/)
+- [Website](https://neilroutley.com)
 - [Demo Video](https://www.youtube.com/watch?v=eTffFcDAizA&feature=youtu.be)
 - [Slides](https://docs.google.com/presentation/d/18qnaEKQv-kSD2iBQMQuZlf1H8NPNmZOgmV8cgIPBTrs/edit?usp=sharing)
 - [CS5610 Website](http://johnguerra.co/classes/webDevelopment_spring_2019/)
